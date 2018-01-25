@@ -37,7 +37,7 @@
             // 
             // buttonSpielStart
             // 
-            this.buttonSpielStart.Location = new System.Drawing.Point(392, 361);
+            this.buttonSpielStart.Location = new System.Drawing.Point(366, 351);
             this.buttonSpielStart.Name = "buttonSpielStart";
             this.buttonSpielStart.Size = new System.Drawing.Size(283, 51);
             this.buttonSpielStart.TabIndex = 0;
@@ -49,7 +49,7 @@
             this.pictureBox1.ErrorImage = global::WindowsFormsWWM.Properties.Resources.logo;
             this.pictureBox1.Image = global::WindowsFormsWWM.Properties.Resources.logo;
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(349, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(322, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(371, 333);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -58,12 +58,13 @@
             // 
             // buttonHighscore
             // 
-            this.buttonHighscore.Location = new System.Drawing.Point(393, 446);
+            this.buttonHighscore.Location = new System.Drawing.Point(368, 424);
             this.buttonHighscore.Name = "buttonHighscore";
             this.buttonHighscore.Size = new System.Drawing.Size(281, 57);
             this.buttonHighscore.TabIndex = 2;
             this.buttonHighscore.Text = "Highscore";
             this.buttonHighscore.UseVisualStyleBackColor = true;
+            this.buttonHighscore.Click += new System.EventHandler(this.buttonHighscore_Click);
             // 
             // StartGUI
             // 

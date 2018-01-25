@@ -16,5 +16,12 @@ namespace WindowsFormsWWM
         {
             InitializeComponent();
         }
+
+        private void buttonHighscore_Click(object sender, EventArgs e)
+        {
+            Highscore hs = new Highscore();
+            hs.Visible = true;
+            this.Visible = false;
+        }
     }
 }
