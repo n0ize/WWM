@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsWWM
 {
-    partial class Highscore
+    partial class HighscoreGUI
     {
         /// <summary>
         /// Required designer variable.

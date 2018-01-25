@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsWWM
 {
-    public partial class FormFragen : Form
+    public partial class FragenGUI : Form
     {
-        public FormFragen()
+        public FragenGUI()
         {
             InitializeComponent();
         }
