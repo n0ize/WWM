@@ -37,7 +37,7 @@
             // 
             // buttonSpielStart
             // 
-            this.buttonSpielStart.Location = new System.Drawing.Point(366, 351);
+            this.buttonSpielStart.Location = new System.Drawing.Point(366, 379);
             this.buttonSpielStart.Name = "buttonSpielStart";
             this.buttonSpielStart.Size = new System.Drawing.Size(283, 51);
             this.buttonSpielStart.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             // buttonHighscore
             // 
-            this.buttonHighscore.Location = new System.Drawing.Point(368, 424);
+            this.buttonHighscore.Location = new System.Drawing.Point(366, 456);
             this.buttonHighscore.Name = "buttonHighscore";
             this.buttonHighscore.Size = new System.Drawing.Size(281, 57);
             this.buttonHighscore.TabIndex = 2;
