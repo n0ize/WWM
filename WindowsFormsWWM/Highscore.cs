@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsWWM
 {
-    public partial class StartGUI : Form
+    public partial class Highscore : Form
     {
-        public StartGUI()
+        public Highscore()
         {
             InitializeComponent();
-        }
-
-        private void buttonHighscore_Click(object sender, EventArgs e)
-        {
-            Highscore hs = new Highscore();
-            hs.Visible = true;
-            this.Visible = false;
         }
     }
 }
