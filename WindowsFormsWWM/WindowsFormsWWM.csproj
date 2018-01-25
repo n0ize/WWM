@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormFragen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFragen.Designer.cs">
+      <DependentUpon>FormFragen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Highscore.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormFragen.resx">
+      <DependentUpon>FormFragen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Highscore.resx">
       <DependentUpon>Highscore.cs</DependentUpon>
     </EmbeddedResource>
