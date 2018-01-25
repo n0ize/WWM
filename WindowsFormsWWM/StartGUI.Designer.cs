@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartGUI));
             this.buttonSpielStart = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonHighscore = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonSpielStart
@@ -43,18 +40,6 @@
             this.buttonSpielStart.TabIndex = 0;
             this.buttonSpielStart.Text = "Spielen";
             this.buttonSpielStart.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = global::WindowsFormsWWM.Properties.Resources.logo;
-            this.pictureBox1.Image = global::WindowsFormsWWM.Properties.Resources.logo;
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(322, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(371, 333);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // buttonHighscore
             // 
@@ -73,11 +58,9 @@
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(994, 591);
             this.Controls.Add(this.buttonHighscore);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonSpielStart);
             this.Name = "StartGUI";
             this.Text = "Who Wants To Be A Millionaire ?";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -85,7 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Button buttonSpielStart;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonHighscore;
     }
 }
