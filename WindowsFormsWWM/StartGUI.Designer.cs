@@ -34,7 +34,7 @@
             // 
             // buttonSpielStart
             // 
-            this.buttonSpielStart.Location = new System.Drawing.Point(366, 379);
+            this.buttonSpielStart.Location = new System.Drawing.Point(366, 377);
             this.buttonSpielStart.Name = "buttonSpielStart";
             this.buttonSpielStart.Size = new System.Drawing.Size(283, 51);
             this.buttonSpielStart.TabIndex = 0;
