@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsWWM
 {
-    public partial class Form1 : Form
+    public partial class StartGUI : Form
     {
-        public Form1()
+        public StartGUI()
         {
             InitializeComponent();
         }
