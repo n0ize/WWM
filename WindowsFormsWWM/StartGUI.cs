@@ -23,5 +23,12 @@ namespace WindowsFormsWWM
             hs.Visible = true;
             this.Visible = false;
         }
+
+        private void buttonSpielStart_Click(object sender, EventArgs e)
+        {
+            FormFragen ff = new FormFragen();
+            ff.Visible = true;
+            this.Visible = false;
+        }
     }
 }

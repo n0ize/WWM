@@ -43,6 +43,7 @@
             this.buttonSpielStart.TabIndex = 0;
             this.buttonSpielStart.Text = "Spielen";
             this.buttonSpielStart.UseVisualStyleBackColor = true;
+            this.buttonSpielStart.Click += new System.EventHandler(this.buttonSpielStart_Click);
             // 
             // buttonHighscore
             // 
