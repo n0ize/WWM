@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartGUI));
             this.buttonSpielStart = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonHighscore = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,12 +56,22 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
+            // buttonHighscore
+            // 
+            this.buttonHighscore.Location = new System.Drawing.Point(393, 446);
+            this.buttonHighscore.Name = "buttonHighscore";
+            this.buttonHighscore.Size = new System.Drawing.Size(281, 57);
+            this.buttonHighscore.TabIndex = 2;
+            this.buttonHighscore.Text = "Highscore";
+            this.buttonHighscore.UseVisualStyleBackColor = true;
+            // 
             // StartGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(994, 591);
+            this.Controls.Add(this.buttonHighscore);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonSpielStart);
             this.Name = "StartGUI";
@@ -74,6 +85,7 @@
 
         private System.Windows.Forms.Button buttonSpielStart;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button buttonHighscore;
     }
 }
 
