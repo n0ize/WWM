@@ -38,6 +38,7 @@ namespace WindowsFormsWWM
             else
             {
                 ff.Visible = true;
+                this.Visible = false;
             }
         }
     }

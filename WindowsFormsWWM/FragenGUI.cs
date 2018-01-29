@@ -23,7 +23,6 @@ namespace WindowsFormsWWM
         {
             sg.Visible = true;
             this.Visible = false;
-
         }
     }
 }
