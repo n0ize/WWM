@@ -12,6 +12,8 @@ namespace WindowsFormsWWM
 {
     public partial class StartGUI : Form
     {
+        FragenGUI ff;
+        bool existiert = false;
         public StartGUI()
         {
             InitializeComponent();
@@ -26,9 +28,17 @@ namespace WindowsFormsWWM
 
         private void buttonSpielStart_Click(object sender, EventArgs e)
         {
-            FragenGUI ff = new FragenGUI();
-            ff.Visible = true;
-            this.Visible = false;
+            if (existiert == false)
+            {
+                ff = new FragenGUI(this);
+                ff.Visible = true;
+                this.Visible = false;
+                existiert = true;
+            }
+            else
+            {
+                ff.Visible = true;
+            }
         }
     }
 }

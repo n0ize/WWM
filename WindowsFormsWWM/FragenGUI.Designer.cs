@@ -67,6 +67,7 @@
             this.buttonMenü.TabIndex = 0;
             this.buttonMenü.Text = "Menü";
             this.buttonMenü.UseVisualStyleBackColor = true;
+            this.buttonMenü.Click += new System.EventHandler(this.buttonMenü_Click);
             // 
             // button50_50
             // 
@@ -304,7 +305,7 @@
             this.label5.TabIndex = 22;
             this.label5.Text = "5 - € 500";
             // 
-            // FormFragen
+            // FragenGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -337,7 +338,7 @@
             this.Controls.Add(this.buttonTelefon);
             this.Controls.Add(this.button50_50);
             this.Controls.Add(this.buttonMenü);
-            this.Name = "FormFragen";
+            this.Name = "FragenGUI";
             this.Text = "Fragen";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

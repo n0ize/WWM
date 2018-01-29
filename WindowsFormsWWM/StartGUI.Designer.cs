@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartGUI));
             this.buttonSpielStart = new System.Windows.Forms.Button();
             this.buttonHighscore = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonSpielStart
@@ -61,13 +58,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(994, 591);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonHighscore);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonSpielStart);
             this.Name = "StartGUI";
             this.Text = "Who Wants To Be A Millionaire ?";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -76,7 +70,6 @@
 
         private System.Windows.Forms.Button buttonSpielStart;
         private System.Windows.Forms.Button buttonHighscore;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -12,9 +12,18 @@ namespace WindowsFormsWWM
 {
     public partial class FragenGUI : Form
     {
-        public FragenGUI()
+        StartGUI sg;
+        public FragenGUI(StartGUI sg)
         {
             InitializeComponent();
+            this.sg = sg;
+        }
+
+        private void buttonMenü_Click(object sender, EventArgs e)
+        {
+            sg.Visible = true;
+            this.Visible = false;
+
         }
     }
 }

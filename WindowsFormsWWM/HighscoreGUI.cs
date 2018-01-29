@@ -26,9 +26,9 @@ namespace WindowsFormsWWM
 
         }
 
-        public Object check(DataReader dr)
+        public Object check(OleDbDataReader dr)
         {
-
+            return dr;
         }
     }
 }
