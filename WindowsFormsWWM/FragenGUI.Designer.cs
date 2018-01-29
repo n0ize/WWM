@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsWWM
 {
-    partial class FormFragen
+    partial class FragenGUI
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFragen));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FragenGUI));
             this.buttonMenü = new System.Windows.Forms.Button();
             this.button50_50 = new System.Windows.Forms.Button();
             this.buttonTelefon = new System.Windows.Forms.Button();
