@@ -26,8 +26,8 @@ namespace WindowsFormsWWM.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=H:\\CSHARP\\ADO\\WindowsFormsWWM\\Quiz.m" +
-            "db")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=H:\\CSHARP\\ADO\\WindowsFormsWWM2\\Quiz." +
+            "mdb")]
         public string con {
             get {
                 return ((string)(this["con"]));

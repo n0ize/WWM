@@ -16,6 +16,7 @@ namespace WindowsFormsWWM
         StartGUI sg;
         OleDbDataReader dr;
         OleDbConnection con;
+        List<Frage> listFragen = new List<Frage>();
         public FragenGUI(StartGUI sg)
         {
             InitializeComponent();
@@ -30,9 +31,48 @@ namespace WindowsFormsWWM
             this.Visible = false;
         }
 
-        private void check(OleDbDataReader dr)
+        private void einlesen()
         {
+            OleDbCommand com;
+            com = con.CreateCommand();
+            com.CommandText = "Fragen";
+            com.CommandType = CommandType.TableDirect;
+            OleDbDataReader dr = com.ExecuteReader();
 
+            while (dr.Read() == true)
+            {
+                listFragen.Add(Frageerstellen(dr));
+            }
+            comboBoxTeilnehmer.DataSource = null;
+            comboBoxTeilnehmer.DataSource = listFragen;
+            con.Close();
+        }
+
+        public Frage Frageerstellen(OleDbDataAdapter dr)
+        {
+            Frage f = new Frage();
+            int i = 0;
+
+            f.Id = Convert.ToInt32(check(dr[i++]));
+            f.FrageText = Convert.ToString(check(dr[i++]));
+            f.Antwortarray[0] = Convert.ToString(check(dr[i++]));
+            f.Antwortarray[1] = Convert.ToString(check(dr[i++]));
+            f.Antwortarray[2] = Convert.ToString(check(dr[i++]));
+            f.Antwortarray[3] = Convert.ToString(check(dr[i++]));
+            f.Schwierigkeit = Convert.ToInt32(check(dr[i++]));
+
+            return f;
+        }
+        private object check(object o)
+        {
+            if (o != DBNull.Value)
+            {
+                return o;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
