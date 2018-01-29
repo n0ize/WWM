@@ -19,8 +19,15 @@ namespace WindowsFormsWWM
 
         private void buttonHighscore_Click(object sender, EventArgs e)
         {
-            Highscore hs = new Highscore();
+            HighscoreGUI hs = new HighscoreGUI();
             hs.Visible = true;
+            this.Visible = false;
+        }
+
+        private void buttonSpielStart_Click(object sender, EventArgs e)
+        {
+            FragenGUI ff = new FragenGUI();
+            ff.Visible = true;
             this.Visible = false;
         }
     }

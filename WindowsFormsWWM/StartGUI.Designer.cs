@@ -37,12 +37,13 @@
             // 
             // buttonSpielStart
             // 
-            this.buttonSpielStart.Location = new System.Drawing.Point(366, 379);
+            this.buttonSpielStart.Location = new System.Drawing.Point(366, 377);
             this.buttonSpielStart.Name = "buttonSpielStart";
             this.buttonSpielStart.Size = new System.Drawing.Size(283, 51);
             this.buttonSpielStart.TabIndex = 0;
             this.buttonSpielStart.Text = "Spielen";
             this.buttonSpielStart.UseVisualStyleBackColor = true;
+            this.buttonSpielStart.Click += new System.EventHandler(this.buttonSpielStart_Click);
             // 
             // buttonHighscore
             // 
@@ -54,24 +55,13 @@
             this.buttonHighscore.UseVisualStyleBackColor = true;
             this.buttonHighscore.Click += new System.EventHandler(this.buttonHighscore_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = global::WindowsFormsWWM.Properties.Resources.logo;
-            this.pictureBox1.Image = global::WindowsFormsWWM.Properties.Resources.logo;
-            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(322, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(371, 333);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // StartGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(994, 591);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonHighscore);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonSpielStart);

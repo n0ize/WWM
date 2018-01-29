@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsWWM
 {
-    public partial class Highscore : Form
+    public partial class FragenGUI : Form
     {
-        public Highscore()
+        public FragenGUI()
         {
             InitializeComponent();
         }
